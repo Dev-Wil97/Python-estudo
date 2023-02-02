@@ -1,0 +1,10 @@
+# barn-culo-estudioso
+Programas básicos de aprendizado :)
+
+# Calculando a Hipotenusa
+
+from math import hypot
+co = float(input('Comprimento do cateto oposto: '))
+ca = float(input('Comprimento do cateto adijacente: '))
+hi = hypot(co, ca)
+print('A hipotenusa vai medir {:.2f}'.format(hi))
